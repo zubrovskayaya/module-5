@@ -13,7 +13,7 @@ header {
 }
 
 h1 {
-    color: rgb(83, 11, 38);
+    color: rgb(133, 21, 64);
     font-family: Georgia;
     font-size: 85px;
     font-weight:bolder;
@@ -21,28 +21,68 @@ h1 {
     border: 2px;
     border-width: 3px;
     border-color: rgb(61, 80, 187);
-    border-style: dotted;
+    border-style: dashed;
     border-radius: 15px;
 }
 nav {
     padding-top: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
     text-align: center;
+
 }
 nav .menu {
-margin-bottom: 50px;
+margin-bottom: 30px;
+background-color:rgb(61, 80, 187);
 }
 nav .menu > a {
-color: rgb(133, 21, 64);
-padding: 0 25px;
+color: rgb(250, 239, 243);
+padding: 10px 20px;
 font-size: 13px;
 font-weight: 600;
 letter-spacing: .1rem;
 text-decoration: none;
 text-transform: uppercase;
+border: 0.5px;
+border-style: solid;
+border-color: black;
+border-radius: 15px;
+}
+nav .menu > a:hover {
+    color: gray;
 }
 .copyright {
     color: gray;
     font-family: 'Times New Roman', Times, serif;
 text-align: center;
+}
+.news{
+    background-color:  white;
+    padding: 50px 0 30px;
+}
+article{
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(61, 80, 187);
+}
+
+article a{
+    color:rgb(133, 21, 64) ;
+    text-decoration: none;
+}
+article a:hover{
+    color: black;
+}
+article h2{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    margin-bottom: 5px;
+}
+.article-meta{
+    color: gray;
+    margin-bottom: 5px;
+}
+article img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
 }
