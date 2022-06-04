@@ -73,9 +73,15 @@ article a{
     color:rgb(133, 21, 64) ;
     text-decoration: none;
 }
+article::before{
+    content: "NEW";
+    color: red;
+}
 article a:hover{
     color: black;
 }
+
+    
 article h2{
     font-family:Georgia, 'Times New Roman', Times, serif ;
     margin-bottom: 5px;
