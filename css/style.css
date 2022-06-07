@@ -54,7 +54,7 @@ nav .menu > a:hover {
 text-align: center;
 }
 .news {
-    background-color:  white;
+    background-color: white;
     padding: 50px 0 30px;
 }
 section h2 {
@@ -62,7 +62,6 @@ section h2 {
     font-size: xx-large;
 }
 article {
-    background-color: aquamarine;
     width: 768px;
     margin: 0 auto 32px;
     padding: 6px 15px;
