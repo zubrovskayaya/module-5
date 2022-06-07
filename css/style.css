@@ -2,7 +2,6 @@ body {
 margin: 0%;
 padding: 0%;
 } 
-
 header {
     display: flex;
     background: url('../image/journal.jpg') bottom no-repeat; 
@@ -11,7 +10,6 @@ header {
     justify-content: center;
     height: 400px;
 }
-
 h1 {
     color: rgb(133, 21, 64);
     font-family: Georgia;
@@ -25,19 +23,16 @@ h1 {
     border-radius: 15px;
 }
 nav {
-
     padding-top: 20px;
     padding-bottom: 10px;
     text-align: center;
 }
-
 nav .menu {
     padding: 10px;
 margin-bottom: 30px;
 background-color:rgb(61, 80, 187);
 }
-nav .menu > a {
-    
+nav .menu > a { 
 color: rgb(250, 239, 243);
 padding: 10px 20px;
 font-size: 13px;
@@ -58,20 +53,24 @@ nav .menu > a:hover {
     font-family: 'Times New Roman', Times, serif;
 text-align: center;
 }
-.news{
+.news {
     background-color:  white;
     padding: 50px 0 30px;
 }
-article:nth-child(odd) {
-    background-color: rgb(0, 0, 0);
+section h2 {
+    text-align: center;
+    font-size: xx-large;
 }
 article {
+    background-color: aquamarine;
     width: 768px;
     margin: 0 auto 32px;
     padding: 6px 15px;
     border-bottom: 1px solid rgb(61, 80, 187);
 }
-
+article:nth-child(even) {
+    background-color: rgb(252, 162, 162);
+}
 article a {
     color:rgb(133, 21, 64) ;
     text-decoration: none;
@@ -87,7 +86,7 @@ article a {
 article a:hover {
     color: black;
 }
-article h2{
+article h2 {
     font-family:Georgia, 'Times New Roman', Times, serif ;
     margin-bottom: 5px;
 }
@@ -95,7 +94,7 @@ article h2{
     color: gray;
     margin-bottom: 5px;
 }
-article img{
+article img {
     width: 100%;
     height: 300px;
     object-fit: contain;
