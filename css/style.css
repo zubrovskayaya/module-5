@@ -21,6 +21,7 @@ h1 {
     border-color: rgb(61, 80, 187);
     border-style: dashed;
     border-radius: 15px;
+    box-shadow: 6px 6px rgb(61, 80, 187), -1em 0 .4em rgb(133, 21, 64);
 }
 nav {
     padding-top: 20px;
